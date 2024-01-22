@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/clouds.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Check Your City Weather!</title>
+  </head>
+  <body>
+    <div class="card">
+      <form class="search-box">
+        <input type="text" placeholder="Search Your City" class="search" />
+        <button class="search-button"><img src="img/search.png" /></button>
+      </form>
+      <p class="error hidden">Invalid City</p>
+      <div class="data-box hidden">
+        <img src="" class="weather-icon" />
+        <p class="temp"></p>
+        <p class="city"></p>
+        <div class="scale-box">
+          <div class="scale">
+            <img src="img/humidity.png" />
+            <div>
+              <p class="humidity"></p>
+              <p>humidity</p>
+            </div>
+          </div>
+          <div class="scale">
+            <img src="img/wind.png" />
+            <div>
+              <p class="wind"></p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
